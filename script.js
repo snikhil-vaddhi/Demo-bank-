@@ -279,7 +279,7 @@ btnLogin.addEventListener('click', function (e) {
     inputLoginPin.blur();
 
     if (intTimer) clearInterval(intTimer);
-    timer = startLogOutTimer();
+    intTimer = startLogOutTimer();
 
     updateUI(currentAccount);
   } else {
